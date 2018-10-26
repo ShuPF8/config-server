@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: euraka-client
-
 server:
   port: 8762
 
