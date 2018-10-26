@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: service-zull
+
 server:
   port: 8766
 

@@ -1,4 +1,8 @@
 spring:
+  application:
+    name: service-feign
+
+spring:
   cloud: # 配置中心配置
       config:
         label: master
