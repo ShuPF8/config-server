@@ -15,7 +15,7 @@ zuul:
   routes:
     api-a:
       path: /api-a/**
-      serviceId: eureka-client
+      serviceId: euraka-client
     api-b:
       path: /api-b/**
-      serviceId: service-feign
+      serviceId: feign

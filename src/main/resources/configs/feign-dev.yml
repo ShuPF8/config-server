@@ -1,16 +1,6 @@
 server:
   port: 8765
 
-spring:
-  cloud: # 配置中心配置
-      config:
-        label: master
-        profile: dev
-        uri: http://127.0.0.1:8888/
-#        discovery:
-#          enabled: true
-#          service-id: config-server
-
 # 配置注册服务中心地址
 eureka:
   client:
