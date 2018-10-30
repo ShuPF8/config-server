@@ -12,10 +12,9 @@ spring:
     port: 5672
     username: guest
     password: guest
-
-spring:
   cloud:
-    bus:
-      enabled: true
-      trace:
+      bus:
         enabled: true
+        trace:
+          enabled: true
+
